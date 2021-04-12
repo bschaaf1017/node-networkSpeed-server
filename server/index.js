@@ -5,7 +5,7 @@ const path = require('path')
 const PORT = 3000;
 const app = express();
 
-const dir = path.join(__dirname, '..', 'assets', 'space.jpg') 
+const dir = path.join(__dirname, '..', 'assets', 'lily.jpg') 
 
 app.use(parser({limit: '50mb'}));
 app.use(express.json());
